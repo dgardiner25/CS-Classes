@@ -1,0 +1,99 @@
+Script started on Wed 05 Oct 2016 03:11:21 PM CDT
+g++ -Wall -W -s -pedantic-errors *.cpp -o 53drv && ./53drv && rm ./53drv
+Welcome to my carbon footprint survey!
+
+Carbon Footprint Survey
+-----------------------
+1. Wasteful (Food) Consumption
+2. Public Transit Usage
+3. Industrial Complicity
+4. Farm-Related Methane Production
+5. Compute GUILT value
+
+Please enter your choice (1-5):      2
+
+Do you use public transportation? (0 for no, 1 for yes)     1
+
+How many miles per day? (1-250)     59 0
+
+Carbon Footprint Survey
+-----------------------
+1. Wasteful (Food) Consumption
+2. Public Transit Usage
+3. Industrial Complicity
+4. Farm-Related Methane Production
+5. Compute GUILT value
+
+Please enter your choice (1-5):      4
+
+You must complete option 1 first!
+
+Carbon Footprint Survey
+-----------------------
+1. Wasteful (Food) Consumption
+2. Public Transit Usage
+3. Industrial Complicity
+4. Farm-Related Methane Production
+5. Compute GUILT value
+
+Please enter your choice (1-5):      1
+
+How many pounds of food per day do you waste? (0-100)     38
+
+Carbon Footprint Survey
+-----------------------
+1. Wasteful (Food) Consumption
+2. Public Transit Usage
+3. Industrial Complicity
+4. Farm-Related Methane Production
+5. Compute GUILT value
+
+Please enter your choice (1-5):      5
+
+You must complete all other options first!
+
+Carbon Footprint Survey
+-----------------------
+1. Wasteful (Food) Consumption
+2. Public Transit Usage
+3. Industrial Complicity
+4. Farm-Related Methane Production
+5. Compute GUILT value
+
+Please enter your choice (1-5):      4
+
+How many whole pigs did your father eat this week? (0-3)     2
+
+Carbon Footprint Survey
+-----------------------
+1. Wasteful (Food) Consumption
+2. Public Transit Usage
+3. Industrial Complicity
+4. Farm-Related Methane Production
+5. Compute GUILT value
+
+Please enter your choice (1-5):      2
+
+You have already completed this option!
+
+Carbon Footprint Survey
+-----------------------
+1. Wasteful (Food) Consumption
+2. Public Transit Usage
+3. Industrial Complicity
+4. Farm-Related Methane Production
+5. Compute GUILT value
+
+Please enter your choice (1-5):      5
+
+You must complete all other options first!
+
+Carbon Footprint Survey
+-----------------------
+1. Wasteful (Food) Consumption
+2. Public Transit Usage
+3. Industrial Complicity
+4. Farm-Related Methane Production
+5. Compute GUILT value
+
+Please enter your choice (1-5):      

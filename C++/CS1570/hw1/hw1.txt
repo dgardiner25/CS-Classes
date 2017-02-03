@@ -1,0 +1,115 @@
+//Programmer: David Gardiner                 		Date: 08/26/16
+//File: hw1.txt                              		Class: CS 1570 
+//Purpose: To provide clear and concise      		Section: A
+//         steps to solve a given problem
+
+Algorithm #1:
+
+1. Shake random ID from urn.
+
+2. i. If own ID is received, leave the party.
+   
+   ii. Otherwise, form a circle with the other students with random ID's.
+   
+3. Repeat steps 1 and 2 until all students have received an ID.
+   
+4. Have one student (student L) switch ID's with the person to their right
+   (student R).
+
+5. i. If either of the student receive their ID, they may leave.
+
+	 ii. Otherwise if both students do not have their ID, student R
+             becomes  student L.
+	 
+	 iii. Otherwise the remaining of the two becomes student L.
+	 
+6. Repeat steps 3 and 4 until All students have received their own ID.
+
+
+Algorithm #2:
+
+1. num1 = the base 12 number.
+
+2. num2 = the last digit of num1.
+
+3. Remove the last digit of num1.
+
+4. Add the last digit of num1 to the end of num2.
+
+5. Remove the last digit of num1.
+
+6. Repeat steps 4 and 5 until you have exhausted num1.
+
+7. n = 0.
+
+8. sum = 0.
+
+9. num3 = the first digit of num2.
+
+10. If num3 = A, replace A with 10.
+
+11. If num3 = B, replace B with 11.
+
+12. Remove the first digit of num2.
+
+13. num4 = 12 to the power of n times num3.
+
+14. sum = sum + num4.
+
+15. n = n + 1.
+
+16. Repeat steps 9 through 15 until you exhaust num2.
+
+17. Sum is now the original base 12 number converted to base 10.
+
+
+Algorithm #3:
+
+1. Pick a word and assign it to W1.
+
+2. Pick another word and assign it to W2.
+
+3. n = 1.
+
+4. Compare letter n of W1 and W2.
+
+5. If both letters are the same and have the same capitalization,
+	 n = n + 1.
+	 
+6. Repeat steps 4 and 5 until letters are not the same, do not have
+	 the same capitilization or one or both letters is the null character 
+	 (no more letters).
+	 
+7. If both letters are null, the lexicographic difference is 0.
+
+8. If the letters are the same but do not have the same
+	 capitilization, the lexicographic difference is 32.
+	 
+9. If one word is null and the other is not
+
+    i. And the letter is lowercase, the lexicographic differnce is the
+       distance of the letter from a + 97. 
+    
+    ii. And the letter is uppercase, the lexicographic difference is the
+        distance of the letter from A + 65.	 
+  
+10. Otherwise, l1 = the letter at position n of W1 and l2 = the letter at
+    position n of W2.
+		
+11. i. If l1 is lowercase, the numercial value (n1) is the distance of the
+       letter l1 from a + 97.
+   
+    ii. If l1 is uppercase, the numerical value (n1) is the distance of the
+        letter l1 from A + 65.
+    
+12. Repeat step 11 with l2 in place of l1 and n2 in place of n1.
+
+13. The lexicographic difference of the words is the absolute value of n1 - n2.
+
+
+
+
+
+   
+   
+   
