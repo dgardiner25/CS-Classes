@@ -1,0 +1,26 @@
+David Gardiner
+
+Problem 1:
+  1. The output gives a detailed list of the visible files.
+  2. The output gives a detailed list of all files (visible and hidden).
+  3. It forcibly removes all files in the directory.
+
+Problem 2:
+  1. 'man passwd' shows the manual for passwords. 
+  2. Type 'man passwd' (I don't really know how else you would do it).
+  3. PATH and $TERM
+
+Problem 3:
+  1. "apple".
+  2. "banana".
+  3. It contains banana and then carrot on the next line. >> Adds the input
+  to the next line and > Just replaces everything with the input.
+  4. | combines two functions to be ran together.
+
+Problem 4:
+  1. I get each line and check the first character of the line. If there is
+not a # in the beginning, the line is added to the story variable to be
+output at the end. The shell command is 'echo "story goes here" | ./a.out'.
+  2. Can enter in anything I want. Once I enter the "exit" character (being
+E in this case), anything that I entered in is output, minus any line that
+started with a #.

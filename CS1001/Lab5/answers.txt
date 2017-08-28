@@ -1,0 +1,14 @@
+Problem 1:
+1. grep -v '^#' story-plain.txt
+2. grep -v -P '^[#\s]' story-space.txt
+
+Problem 2:
+1. [stuff goes here] | sed 's/[a|e|i|o|u]//g'
+
+Problem 3:
+1. grep -c -P '\d{4}-01' numbers.log
+
+Problem 4:
+1. grep -P -o '(\d{3})[^\d]*(\d{3})[^\d]*(\d{4})' phonebook.txt  
+2. sed -r 's/([0-9]{3})([^0-9]*)([0-9]{3})([^0-9]*)([0-9]{4})/\(\1\)\ \3\-\5/g'
+  (use grep output to pipe into sed input)

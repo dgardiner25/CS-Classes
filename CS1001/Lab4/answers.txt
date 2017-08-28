@@ -1,0 +1,24 @@
+David Gardiner
+
+-------- Problem 1 --------
+Question 1:
+  - 1. bash compiley.sh program.cpp hello
+  - 2. The script takes the first and second arguments of the command
+       and assigns them to variables. Then, the g++ command is used with the
+       variables that hold the arguments. Therefore, the first argument will
+       be the name of the program and the second will be what the name of
+       the executable is.
+
+Question 2:
+  - 1. Nope.
+  - 2. Rather than there being only 2 arguments ("my program.cpp" and
+       hello), there is 3 (my, program.cpp, and hello). The script thinks
+       that my is the file name and there is no input file with that name.
+
+Question 3:
+  - 1. Nope.
+  - 2. It thinks that the input is '$@'
+
+Question 4:
+  - 1. Yep.
+  - 2. It is saying to include everything that is in double quotes as well. 
