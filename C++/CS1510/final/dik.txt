@@ -1,0 +1,23 @@
+4
+NewNewYork 4
+airport 1 museum 3
+museum 2 park 4 robotbar 5
+park 1 robotbar 3
+robotbar 0
+Miami 4
+airport 2 swamp 7 beach 10
+swamp 1 robotbar 3
+beach 1 swamp 5
+robotbar 0
+Rolla 5
+airport 2 lake 5 forest 8
+lake 1 forest 7
+forest 2 river 6 robotbar 9
+river 1 robotbar 7
+robotbar 0
+O'Fallon 5
+house 1 hp 1
+hp 2 main 2 hoff 1
+main 1 vm 4
+hoff 1 vm 5
+hp 0
